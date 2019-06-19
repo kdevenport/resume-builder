@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+import '../Login/Login.css';
 
 class Login extends Component{
     constructor(){
@@ -11,12 +14,14 @@ class Login extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="login-form">
                 <form className="form-group">
                     <input className="form-control" type="email" placeholder="Email address"/>
                     <input className="form-control" type="password" placeholder="Password"/>
-                    <button className="btn btn-primary btn-block" type="submit">Submit</button>
-                    <button className="btn btn-primary btn-block" type="button">Register</button>
+                    <button className="button" type="submit">Login</button>
+                    <button className="button" type="button">
+                        <Link to="/register">Register</Link>
+                    </button>
                 </form>
             </div>
         )

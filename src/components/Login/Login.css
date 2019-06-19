@@ -1,0 +1,40 @@
+.login-form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height:100vh;
+    background-color: #EDDBCD;
+  }
+  
+.form-group {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-group button {
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #C06014;
+    color: white;
+}
